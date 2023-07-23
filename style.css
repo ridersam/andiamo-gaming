@@ -1,0 +1,65 @@
+#carouselBackground {
+    background-color: rgb(105, 192, 218);
+}
+
+.page-footer {
+    background-color: #bc8764;
+    color: aliceblue;
+}
+
+.linkPage {
+color: beige;
+}
+
+.btn-align-right {
+    text-align: left;
+}
+
+#contactUs {
+    color: rgb(73, 73, 73);
+}
+
+h2 {
+    font-family: 'Kanit', sans-serif;
+    
+}
+
+nav {
+    background: #0e213f;
+    font-family: 'Kanit', sans-serif;
+}
+a.navbar-brand {
+    color: #f4bf98;
+}
+li.nav-item a.nav-link {
+    color: #f4bf98;
+}
+
+li.nav-item.active a.nav-link {
+    color: #fae4c2;
+}
+
+.link-unstyled {
+    color: aliceblue;
+}
+
+.page-background {
+    background: #f7f2e8;
+}
+
+button.btn.btn-dark {
+    background: #fae4c2;
+    color: #0e213f;
+}
+
+.carousel .carousel-indicators li {
+    background-color: #0e213f;
+}
+
+.carousel .carousel-indicators li.active {
+    background-color: #bc8764;
+}
+
+.carousel-control-prev-icon {
+    background-image: #0e213f;
+}

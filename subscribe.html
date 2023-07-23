@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <title>Andiamo Gaming</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale-1" />
+
+    <!-- Bootstrap CSS -->
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,900;1,100;1,200;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body class="page-background">
+    <header class="jumbotron-fluid">
+        <nav class="navbar navbar-expand-md sticky-top">
+            <a class="navbar-brand" href="#">Andiamo Games</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSite">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Subscribe</a>
+                    </li>
+                    <li class="nav-item">
+                        <form class="form-inline">
+                            <input class="form-control mr-xs-2" type="search" placeholder="Search">
+                        </form>
+                    </li>
+                </ul>
+            </div>
+            <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#loginModal">Login</button>
+        </nav>
+        <!--Modal-->
+        <div class="modal fade" id="loginModal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="loginModalLabel">User Info</h5>
+                        <button type="button" class="close" data-dismiss="modal">
+                            <span>&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-row">
+                                <label for="memberUser">Username</label>
+                                <input type="text" id="memberUser" class="form-control" placeholder="Username">
+                            </div>
+                            <div class="form-row pt-2">
+                                <label for="memberPass">Password</label>
+                                <input type="text" id="memberPass" class="form-control" placeholder="Password">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-outline-dark">Login</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row text-center">
+            <div class="col">
+                <h2 class="display-2">Join the fun!</h2>
+                <p class="display-4">You're next game is waiting on you.</p>
+            </div>
+        </div>
+    </div>
+        <!--Subscribe Now-->
+        <div class="container">
+            <div class="row my-5">
+                <div class="col text-center">
+                    <h3>Subscriptions</h3>
+                </div>
+            </div>
+            <div class="row my-3">
+                <div class="col-md-6 col-lg-4 p-4">
+                    <div class="card text-center">
+                        <div class="card-header">
+                            <h4>Intro to Gaming</h4>
+                            <div class="card-body">
+                                <img class="img-thumbnail p-2" src="images/gaming-retro.png" alt="Gaming-Mobile">
+                                <ul class="list-unstyled d-none d-lg-block">
+                                    <li class="card-text text-center">
+                                        Home-Brewed Games
+                                    </li>
+                                    <li class="card-text text-center">
+                                        Member Discount on Games
+                                    </li>
+                                    <li class="card-text text-center">500gb of Cloud Storage
+                                    </li>
+                                </ul>
+                                <a class="btn btn-outline-dark px-4 mt-2 active" href="#">Register for FREE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 p-4">
+                    <div class="card text-center">
+                        <div class="card-header">
+                            <h4>Intermediate Gaming</h4>
+                            <div class="card-body">
+                                <img class="img-thumbnail p-2" src="images/gaming-pc.png" alt="Gaming-Mobile">
+                                <ul class="list-unstyled d-none d-lg-block">
+                                    <li class="card-text text-center">
+                                        Access to Full Library
+                                    </li>
+                                    <li class="card-text text-center">1TB of Cloud Storage
+                                    </li>
+                                    <li class="card-text text-center">Community Membership
+                                    </li>
+                                </ul>
+                                <a class="btn btn-outline-dark px-4 mt-2" href="#">Register for $10 / mo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-auto col-lg-4 p-4">
+                    <div class="card text-center">
+                        <div class="card-header">
+                            <h4>Advanced Gaming</h4>
+                            <div class="card-body">
+                                <img class="img-thumbnail p-2" src="images/mobile-gaming.png" alt="Gaming-Mobile">
+                                <ul class="list-unstyled d-none d-lg-block">
+                                    <li class="card-text text-center">
+                                        Access to Full Library
+                                    </li>
+                                    <li class="card-text text-center">2TB of Cloud Storage
+                                    </li>
+                                    <li class="card-text text-center">Community Membership
+                                    </li>
+                                    <li class="card-text text-center">Online Event Registration
+                                    </li>
+                                </ul>
+                                <a class="btn btn-outline-dark px-4 mt-2" href="#">Register for $20 / mo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row page-footer">
+                <div class="col-4 text-center my-3">
+                    <h5>Pages</h5>
+                    <a class="link-unstyled" href="index.html">Home</a> <br>
+                    <a class="link-unstyled" href="aboutus.html">About Us</a> <br>
+                    <a class="link-unstyled" href="#">Subscriptions</a>
+                </div>
+                <div class="col-4">
+                    <div id="contactUs" class="card text-center my-3 d-none d-md-block">
+                        <div class="card-header">
+                            <div class="card-body">
+                                <h5>Contact Us</h5>
+                                <p class="card-text">
+                                    12345 Homeward Bound Dr.<br>
+                                    <a href="tel:555-123-4567">555-123-4567</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 text-center my-3">
+                    <h5>Social</h5>
+                    <a class="btn btn-instagram" href="http://instagram.com"><i class="fa fa-instagram"></i></a>
+                    <a class="btn btn-facebook" href="http://facebook.com"><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-twitter" href="http://twitter.com"><i class="fa fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+</body>
+<footer>
+    <!--Jquery must come first, then Popper.js, then Bootstrap JavaScript plugins-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</footer>
+
+</html>
