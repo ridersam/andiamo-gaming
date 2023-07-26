@@ -3,7 +3,7 @@
 }
 
 .page-footer {
-    background-color: #bc8764;
+    background-color: #0B132B ;
     color: aliceblue;
 }
 
@@ -19,9 +19,10 @@ color: beige;
     color: rgb(73, 73, 73);
 }
 
-h2 {
-    font-family: 'Kanit', sans-serif;
-    
+h1 {
+    font-family: 'REM', sans-serif;
+    color: #fffffffa;
+
 }
 
 nav {
@@ -29,37 +30,83 @@ nav {
     font-family: 'Kanit', sans-serif;
 }
 a.navbar-brand {
-    color: #f4bf98;
+    color: #7DC95E;
 }
 li.nav-item a.nav-link {
-    color: #f4bf98;
+    color: #7DC95E;
 }
 
 li.nav-item.active a.nav-link {
-    color: #fae4c2;
+    color: #0CF574;
 }
+
+button.navbar-toggler {
+    background-color: #7DC95E;
+    border
+}
+
 
 .link-unstyled {
     color: aliceblue;
 }
 
 .page-background {
-    background: #f7f2e8;
+    background-image: linear-gradient(#0B132B, #0CF574,#7DC95E,#0B132B,#0B132B ) ;
 }
 
 button.btn.btn-dark {
-    background: #fae4c2;
-    color: #0e213f;
+    background: #7DC95E;
+    color: #ffffff;
 }
 
 .carousel .carousel-indicators li {
-    background-color: #0e213f;
+    background-color: #0B132B;
 }
 
 .carousel .carousel-indicators li.active {
-    background-color: #bc8764;
+    background-color: #0CF574;
 }
 
 .carousel-control-prev-icon {
     background-image: #0e213f;
+}
+
+.carousel-caption h2 {
+    font-family: 'Handjet', cursive;
+}
+
+.carousel-caption h5 {
+    font-family: 'Handjet', cursive;
+}
+
+.lead {
+    color: #fffffffa;
+}
+
+.card {
+    background-color: #8499B1;
+}
+
+.card-img-top {
+    background-color: #8499B1;
+    border-color: #8499B1;
+}
+
+
+.card-header {
+    background-color: #0B132B;
+    color: #fffffffa;
+}
+
+.card-body {
+    background-color: #8499B1;
+}
+
+.subtitle {
+    color: #fffffffa;
+    font-size: larger;
+}
+
+.tiers{
+    color: ;
 }
