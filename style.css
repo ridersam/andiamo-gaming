@@ -7,6 +7,14 @@
     color: aliceblue;
 }
 
+.card-body h5{
+    color: #0B132B;
+}
+
+.card-text{
+    color: black;
+}
+
 .linkPage {
 color: beige;
 }
@@ -50,13 +58,25 @@ button.navbar-toggler {
     color: aliceblue;
 }
 
+.link-unstyled-contact {
+    color: #0B132B;
+}
+
 .page-background {
-    background-image: linear-gradient(#0B132B, #0CF574,#7DC95E,#0B132B,#0B132B ) ;
+    background-image: linear-gradient(#0B132B, #0B132B,#7DC95E,#0B132B,#0B132B ) ;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-bottom: 1px solid #8499B1;
 }
 
 button.btn.btn-dark {
     background: #7DC95E;
     color: #ffffff;
+    border: #7DC95E;
 }
 
 .carousel .carousel-indicators li {
@@ -85,6 +105,7 @@ button.btn.btn-dark {
 
 .card {
     background-color: #8499B1;
+    border: #0B132B;
 }
 
 .card-img-top {
@@ -102,11 +123,39 @@ button.btn.btn-dark {
     background-color: #8499B1;
 }
 
+.btn-card{
+    background-color: #0B132B;
+    border: #0B132B;
+    color: #fffffffa;
+}
+
 .subtitle {
     color: #fffffffa;
     font-size: larger;
 }
 
 .tiers{
-    color: ;
+    color: #fffffffa;
 }
+
+.img-thumbnail {
+    background-color: #0B132B;
+    border: #0B132B;
+}
+
+.modal-header {
+    background-color: #0B132B;
+    border: #0B132B;
+    color: #fffffffa;
+}
+
+.modal-body {
+    background-color: #8499B1;
+    border: #8499B1;
+}
+
+.modal-footer {
+    background-color: #8499B1;
+    border: #8499B1;
+}
+

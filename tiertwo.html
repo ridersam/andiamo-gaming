@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <title>Andiamo Gaming</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale-1" />
+
+    <!-- Bootstrap CSS -->
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Handjet&family=Kanit:ital,wght@0,100;0,200;0,300;0,900;1,100;1,200;1,900&family=REM&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="page-background">
+    <header class="jumbotron-fluid">
+        <nav class="navbar navbar-dark navbar-expand-md sticky-top">
+            <a class="navbar-brand" href="index.html">Andiamo Games</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSite">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <div>
+                            <a class="nav-link" href="subscribe.html">Subscribe</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <form class="form-inline">
+                            <input class="form-control mr-xs-2" type="search" placeholder="Search">
+                        </form>
+                    </li>
+                </ul>
+            </div>
+            <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#loginModal">Login</button>
+        </nav>
+        <!--Modal-->
+        <div class="modal fade" id="loginModal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="loginModalLabel">User Info</h5>
+                        <button type="button" class="close" data-dismiss="modal">
+                            <span>&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-row">
+                                <label for="memberUser">Username</label>
+                                <input type="text" id="memberUser" class="form-control" placeholder="Username">
+                            </div>
+                            <div class="form-row pt-2">
+                                <label for="memberPass">Password</label>
+                                <input type="text" id="memberPass" class="form-control" placeholder="Password">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-card btn-outline-secondary"
+                            data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-dark">Login</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <h1 class="display-4">Intermediate Gaming</h1>
+                <p class="subtitle">Fill out the form below to confirm you membership in this tier!</p>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col">
+                <h2 style="color: #fffffffa;">Billing address</h2>
+            </div>
+        </div>
+        <form>
+            <div class="form-row pb-2">
+                <div class="form-group col-sm-6">
+                    <label style="color: #fffffffa;" for="inputFirstName">Last name</label>
+                    <input type="text" class="form-control" id="inputFirstName">
+                </div>
+                <div class="form-group col-sm-6">
+                    <label style="color: #fffffffa;" for="inputLastName">First name</label>
+                    <input type="text" class="form-control" id="inputLastName">
+                </div>
+            </div>
+            <div class="form-row pb-2">
+                <div class="input-group col-12">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">@</div>
+                    </div>
+                    <input type="text" class="form-control" id="inputUsername" placeholder="Username">
+                </div>
+            </div>
+            <div class="form-row pb-2">
+                <div class="form-group col-12">
+                    <label style="color: #fffffffa;" for="inputEmail">Email</label>
+                    <input type="email" class="form-control" id="inputEmail">
+                </div>
+            </div>
+            <div class="form-row pb-2">
+                <div class="form-group col-12">
+                    <label style="color: #fffffffa;" for="#inputAddress1">Address</label>
+                    <input type="text" class="form-control" id="inputAddress1" placeholder="1234 Main St">
+                </div>
+                <div class="form-group col">
+                    <label style="color: #fffffffa;" for="inputAddress2">Address 2 (Optional)</label>
+                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment or suite">
+                </div>
+            </div>
+            <div class="form-row pb-2">
+                <div class="form-group col-md-6">
+                    <label style="color: #fffffffa;" for="inputCounty">Country</label>
+                    <select class="form-control" id="inputCountry">
+                        <option selected>Choose...</option>
+                        <option>United States</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-4">
+                    <label style="color: #fffffffa;" for="inputState">State</label>
+                    <select class="form-control" id="inputState">
+                        <option selected>Choose...</option>
+                        <option>Oklahoma</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-2">
+                    <label style="color: #fffffffa;" for="inputZip">Zip</label>
+                    <input type="number" class="form-control" id="inputZip">
+                </div>
+            </div>
+            <hr>
+            <div class="form-row">
+                <div class="form-group">
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="shipCheck">
+                        <label for="shipCheck" style="color: #fffffffa;">Shipping Address is same as Billing
+                            Address</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="saveInfo">
+                        <label for="saveInfo" style="color: #fffffffa;">Save this info for next time?</label>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <hr>
+        <div class="row">
+            <div class="col">
+                <h2 style="color: #fffffffa;">Payment</h2>
+            </div>
+        </div>
+        <form>
+            <div class="form-group">
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="credit">
+                    <label for="credit" style="color: #fffffffa;">Credit Card</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="debit">
+                    <label for="debit" style="color: #fffffffa;">Debit Card</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="paypal">
+                    <label for="paypal" style="color: #fffffffa;">Paypal</label>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="cardName" style="color: #fffffffa;">Name on Card</label>
+                    <input type="text" class="form-control" id="cardName">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="cardNumber" style="color: #fffffffa;">Credit Card number</label>
+                    <input type="number" oninput="FixLengthCardNum()" class="form-control" id="cardNumber">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-3">
+                    <label for="cardExp" style="color: #fffffffa;">Expiration</label>
+                    <input type="date" class="form-control" id="cardExp">
+                </div>
+                <div class="form-group col-3">
+                    <label for="cardCVV" style="color: #fffffffa;">CVV</label>
+                    <input type="number" oninput="fixLengthCVV()" class="form-control" id="cardCVV">
+                </div>
+            </div>
+        </form>
+        <hr>
+        <div class="row text-center">
+            <div class="col">
+        <button class="btn btn-dark col-12" type="submit">Continue to Checkout</button>
+    </div>
+    </div>
+    <hr>
+    </div>
+
+
+
+    <!--Links and Footer-->
+    <div class="container-fluid">
+        <div class="row page-footer">
+            <div class="col-4 text-center my-3">
+                <h5>Pages</h5>
+                <a class="link-unstyled" href="index.html">Home</a> <br>
+                <a class="link-unstyled" href="aboutus.html">About Us</a> <br>
+                <a class="link-unstyled" href="subscribe.html">Subscriptions</a>
+            </div>
+            <div class="col-4">
+                <div id="contactUs" class="card text-center my-3 d-none d-md-block">
+                    <div class="card-header">
+                        <div class="card-body">
+                            <h5>Contact Us</h5>
+                            <p class="card-text">
+                                12345 Homeward Bound Dr.<br>
+                                <a class="link-unstyled-contact" href="tel:555-123-4567">555-123-4567</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 text-center my-3">
+                <h5>Social</h5>
+                <a class="btn btn-instagram" href="http://instagram.com"><i class="fa fa-instagram"></i></a>
+                <a class="btn btn-facebook" href="http://facebook.com"><i class="fa fa-facebook"></i></a>
+                <a class="btn btn-twitter" href="http://twitter.com"><i class="fa fa-twitter"></i></a>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <!--Jquery must come first, then Popper.js, then Bootstrap JavaScript plugins-->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="functions.js"></script>
+</footer>
+
+</html>
