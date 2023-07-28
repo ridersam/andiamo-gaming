@@ -14,7 +14,10 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Handjet&family=Kanit:ital,wght@0,100;0,200;0,300;0,900;1,100;1,200;1,900&family=REM&display=swap" rel="stylesheet"></head>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Handjet&family=Kanit:ital,wght@0,100;0,200;0,300;0,900;1,100;1,200;1,900&family=REM&display=swap"
+        rel="stylesheet">
+</head>
 
 <body class="page-background">
     <header class="jumbotron-fluid">
@@ -32,16 +35,16 @@
                     <li class="nav-item">
                         <a class="nav-link" href="aboutus.html">About Us</a>
                     </li>
-                    <li class="nav-item active">
-                        <div>
-                        <a class="nav-link" href="#">Subscribe</a>
-                    </div>
                     <li class="nav-item">
-                        <a class="nav-link" href="blog.html">Blog</a>
+                        <div>
+                            <a class="nav-link" href="subscribe.html">Subscribe</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">FAQ</a>
-                    </li>
                     <li class="nav-item">
                         <form class="form-inline">
                             <input class="form-control mr-xs-2" type="search" placeholder="Search">
@@ -74,7 +77,8 @@
                         </form>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-card btn-outline-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-card btn-outline-secondary"
+                            data-dismiss="modal">Close</button>
                         <button type="button" class="btn btn-dark">Login</button>
                     </div>
                 </div>
@@ -82,88 +86,36 @@
         </div>
     </header>
     <div class="container">
-        <div class="row text-center">
+        <div class="row pb-4">
             <div class="col">
-                <h1 class="display-2">Join the fun!</h1>
-                <p class="subtitle">You're next game is waiting on you.</p>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="col-sm-6">
+                            <h2 style="font-style: italic;">Title of Blog Post: Example for Viewers</h2>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ipsa
+                                commodi, beatae facilis esse adipisci?</p>
+                            <a class="card-text" style="font-weight: bolder;" href="#">Continue reading...</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <hr>
+        <div class="row pb-4">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="col-md-6">
+                            <h5 class="card-title">Featured Post</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, et.</p>
+                        </div>
+                        <img class="col-md-6 d-none d-md-block img-thumbnail" src="images/gaming-arcade.png"
+                            alt="gaming-arcade">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-        <!--Subscribe Now-->
-        <div class="container">
-            <div class="row my-5">
-                <div class="col text-center">
-                    <h3 class="tiers">Subscriptions</h3>
-                </div>
-            </div>
-            <div class="row my-3">
-                <div class="col-md-6 col-lg-4 p-4">
-                    <div class="card text-center">
-                        <div class="card-header">
-                            <h4>Intro to Gaming</h4>
-                            <div class="card-body">
-                                <img class="img-thumbnail" src="images/gaming-retro.png" alt="Gaming-Mobile">
-                                <ul class="list-unstyled d-none d-lg-block mt-3">
-                                    <li class="card-text text-center">
-                                        Home-Brewed Games
-                                    </li>
-                                    <li class="card-text text-center">
-                                        Member Discount on Games
-                                    </li>
-                                    <li class="card-text text-center">500gb of Cloud Storage
-                                    </li>
-                                </ul>
-                                <a class="btn btn-dark btn-card px-4 mt-2" href="tierone.html">Register for FREE</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 p-4">
-                    <div class="card text-center">
-                        <div class="card-header">
-                            <h4>Intermediate Gaming</h4>
-                            <div class="card-body">
-                                <img class="img-thumbnail" src="images/gaming-pc.png" alt="Gaming-Mobile">
-                                <ul class="list-unstyled d-none d-lg-block mt-3">
-                                    <li class="card-text text-center">
-                                        Access to Full Library
-                                    </li>
-                                    <li class="card-text text-center">1TB of Cloud Storage
-                                    </li>
-                                    <li class="card-text text-center">Community Membership
-                                    </li>
-                                </ul>
-                                <a class="btn btn-dark btn-card px-4 mt-2" href="tiertwo.html">Register for $10 / mo</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-auto col-lg-4 p-4">
-                    <div class="card text-center">
-                        <div class="card-header">
-                            <h4>Advanced Gaming</h4>
-                            <div class="card-body">
-                                <img class="img-thumbnail" src="images/mobile-gaming.png" alt="Gaming-Mobile">
-                                <ul class="list-unstyled d-none d-lg-block mt-3">
-                                    <li class="card-text text-center">
-                                        Access to Full Library
-                                    </li>
-                                    <li class="card-text text-center">2TB of Cloud Storage
-                                    </li>
-                                    <li class="card-text text-center">Community Membership
-                                    </li>
-                                    <li class="card-text text-center">Online Event Registration
-                                    </li>
-                                </ul>
-                                <a class="btn btn-dark btn-card px-4 mt-2" href="tierthree.html">Register for $20 / mo</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <hr>
-        </div>
+
 
     <!--Links and Footer-->
     <div class="container-fluid">
@@ -172,7 +124,7 @@
                 <h5>Pages</h5>
                 <a class="link-unstyled" href="index.html">Home</a> <br>
                 <a class="link-unstyled" href="aboutus.html">About Us</a> <br>
-                <a class="link-unstyled" href="#">Subscriptions</a>
+                <a class="link-unstyled" href="subscribe.html">Subscriptions</a>
             </div>
             <div class="col-4">
                 <div id="contactUs" class="card text-center my-3 d-none d-md-block">

@@ -41,6 +41,11 @@
                         </div>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">FAQ</a>
+                    <li class="nav-item">
                         <form class="form-inline">
                             <input class="form-control mr-xs-2" type="search" placeholder="Search">
                         </form>
@@ -87,6 +92,42 @@
                 <h1 class="display-4">Intermediate Gaming</h1>
                 <p class="subtitle">Fill out the form below to confirm you membership in this tier!</p>
             </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col">
+                <h2 style="color: #fffffffa;">Register</h2>
+                <p style="color: #fffffffa;">Fill in this form to create an account.</p>
+            </div>
+        </div>
+        <form>
+            <div class="form-row pb-2">
+                <div class="form-group col-sm-6">
+                    <label style="color: #fffffffa;" for="inputEmailReg">Email</label>
+                    <input type="email" class="form-control" id="inputEmailReg" placeholder="Enter Email">
+                </div>
+                <div class="form-group col-sm-6">
+                    <label style="color: #fffffffa;" for="inputPassReg">Password</label>
+                    <input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" class="form-control" id="inputPassReg" placeholder="Enter Password">
+                </div>
+                <div class="form-group col-sm-6">
+                    <label style="color: #fffffffa;" for="repeatPass">Repeat Password</label>
+                    <input type="password" class="form-control" id="repeatPass" placeholder="Repeat Password">
+                </div>
+            </div>
+            <div class="row pb-2">
+                <div class="col">
+                    <button class="btn btn-dark col-12" type="submit" onclick="validatePass()"
+                        id="btnReg">Register</button>
+                </div>
+            </div>
+        </form>
+        <div id="message">
+            <h3>Password must contain the following:</h3>
+            <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+            <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+            <p id="number" class="invalid">A <b>number</b></p>
+            <p id="length" class="invalid">Minimum <b>8 characters</b></p>
         </div>
         <hr>
         <div class="row">
@@ -192,7 +233,7 @@
                 </div>
                 <div class="form-group col-md-6">
                     <label for="cardNumber" style="color: #fffffffa;">Credit Card number</label>
-                    <input type="number" oninput="FixLengthCardNum()" class="form-control" id="cardNumber">
+                    <input type="number" class="form-control" id="cardNumber">
                 </div>
             </div>
             <div class="form-row">
@@ -202,20 +243,18 @@
                 </div>
                 <div class="form-group col-3">
                     <label for="cardCVV" style="color: #fffffffa;">CVV</label>
-                    <input type="number" oninput="fixLengthCVV()" class="form-control" id="cardCVV">
+                    <input type="number" class="form-control" id="cardCVV">
                 </div>
             </div>
         </form>
         <hr>
         <div class="row text-center">
             <div class="col">
-        <button class="btn btn-dark col-12" type="submit">Continue to Checkout</button>
+                <button class="btn btn-dark col-12">Continue to Checkout</button>
+            </div>
+        </div>
+        <hr>
     </div>
-    </div>
-    <hr>
-    </div>
-
-
 
     <!--Links and Footer-->
     <div class="container-fluid">

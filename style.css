@@ -66,6 +66,10 @@ button.navbar-toggler {
     background-image: linear-gradient(#0B132B, #0B132B,#7DC95E,#0B132B,#0B132B ) ;
 }
 
+.page-background-tierone {
+
+}
+
 hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -159,3 +163,43 @@ button.btn.btn-dark {
     border: #8499B1;
 }
 
+Registration
+
+#message {
+    display: none;
+    background: #f1f1f1;
+    color: #fffffffa;
+    position: relative;
+    padding: 12px;
+    margin-top: 10px;
+}
+
+#message h3 {
+    font-size: medium;
+    color: #fffffffa 
+}
+
+#message p {
+    font-size: 14px;
+    color: ;
+}
+
+/*green test for valid input*/
+.valid {
+    color: green;
+}
+
+.valid:before {
+    position: relative;
+    left: -35px;
+}
+
+/*add red and x*/
+.invalid {
+    color: red;
+}
+
+.invalid:before {
+    position: relative;
+    left: -35px;
+}
