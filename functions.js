@@ -78,11 +78,3 @@ myInput.onkeyup = function () {
     }
 }
 
-//Validate Password
-var pswReg = document.getElementById("inputPassReg");
-var pswRepeat = document.getElementById('passRepeat');
-var pswCheck = getElementById("btnReg");
-
-validatePass() {
-
-}
